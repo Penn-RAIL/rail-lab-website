@@ -13,7 +13,7 @@ We are passionate about creating practical, ethical, and equitable AI solutions 
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Explore how RAIL’s research is pushing the boundaries of artificial intelligence to improve medical imaging, diagnosis, and patient outcomes.
 
 {%
   include button.html
@@ -36,8 +36,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+Discover how RAIL at the University of Pennsylvania is transforming medical imaging through innovative AI-powered projects.
 {%
   include button.html
   link="projects"
@@ -61,7 +60,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Meet the team behind RAIL’s cutting-edge research and projects.
 
 {%
   include button.html
