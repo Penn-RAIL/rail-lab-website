@@ -3,7 +3,7 @@
   ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
   ![on-schedule](../../actions/workflows/on-schedule.yaml/badge.svg)
 
-  # PennRad-Ghost-lab's Website
+  # RAIL's Website
 
   Visit **[pennrad-ghost-lab.github.io/rail-lab-website](https://pennrad-ghost-lab.github.io/rail-lab-website)** 🚀
 
