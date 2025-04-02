@@ -1,7 +1,11 @@
 ---
 ---
 
-An engaging 1-3 sentence description of your lab.
+Based in the Department of Radiology at the Perelman School of Medicine and led by Dr. Tessa Cook, the Radiology AI Implementation Lab (RAIL) is focused on bridging the gap between artificial intelligence research and clinical practice. We specialize in translating cutting-edge AI technologies into tools that enhance radiology workflows, support clinician decision-making, and improve the patient experience.
+
+RAIL’s interdisciplinary team brings together radiologists, computer scientists, trainees, and engineers to tackle key challenges in AI adoption—such as usability, trust, fairness, and regulatory compliance. Our projects include deploying AI models in live clinical environments, developing educational resources for training the next generation of AI-literate radiologists, and designing patient-friendly AI tools to promote transparency and engagement.
+
+We are passionate about creating practical, ethical, and equitable AI solutions that improve outcomes for both providers and patients.
 
 {% include section.html %}
 
