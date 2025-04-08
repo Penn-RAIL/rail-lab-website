@@ -28,11 +28,14 @@ header a {
 
 .logo {
   height: 40px;
+  width: auto;
+  max-width: none;
 }
 
 .logo > * {
-  width: unset;
+  width: auto;
   height: 100%;
+  max-height: 40px;
 }
 
 .title-text {
@@ -129,8 +132,13 @@ header[data-big] .home {
   flex-grow: 0;
 }
 header[data-big] .logo {
-  height: 120px;
+  height: 300px;
+  width: auto;
+  max-width: none;
   flex-shrink: 0;
+}
+header[data-big] .logo > * {
+  max-height: 300px;
 }
 header[data-big] .title-text {
   flex-direction: column;
