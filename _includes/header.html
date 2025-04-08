@@ -17,25 +17,40 @@
   {% endif %}
 >
   <a href="{{ "/" | relative_url }}" class="home">
-    {% if logo %}
+    {% if page.url == "/" %}
+      {% assign big_svg = "images/logo-big.svg" | file_exists %}
+      {% assign big_png = "images/logo-big.png" | file_exists %}
+      {% assign big_jpg = "images/logo-big.jpg" | file_exists %}
+      {% assign big_logo = big_svg | default: big_png | default: big_jpg | default: logo %}
+      
       <span class="logo">
-        {% if svg %}
-          {{ svg | file_read }}
+        {% if big_svg %}
+          {{ big_svg | file_read }}
         {% else %}
-          <img src="{{ logo | relative_url | uri_escape }}" alt="logo">
+          <img src="{{ big_logo | relative_url | uri_escape }}" alt="logo">
         {% endif %}
       </span>
+    {% else %}
+      {% if logo %}
+        <span class="logo">
+          {% if svg %}
+            {{ svg | file_read }}
+          {% else %}
+            <img src="{{ logo | relative_url | uri_escape }}" alt="logo">
+          {% endif %}
+        </span>
+      {% endif %}
     {% endif %}
-    {% if site.logo-text != false %}
+    <!-- {% if site.logo-text != false %}
       <span class="title-text" data-tooltip="Home">
         {% if site.title and site.show-title != false %}
           <span class="title">{{ site.title }}</span>
         {% endif %}
-        <!-- {% if site.subtitle and site.show-subtitle != false %}
+         {% if site.subtitle and site.show-subtitle != false %}
           <span class="subtitle">{{ site.subtitle }}</span>
         {% endif %} -->
       </span>
-    {% endif %}
+    <!-- {% endif %} -->
   </a>
 
   <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
