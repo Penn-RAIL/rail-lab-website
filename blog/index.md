@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Blog
 nav:
   order: 4
@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
 
-Stay tuned for our blog updates coming soon!
+Stay tuned for our blog updates coming soon! -->
 
 <!-- {% include section.html %} 
 

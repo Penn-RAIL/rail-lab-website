@@ -1,5 +1,5 @@
 ---
-name: Tessa Cook
+name: Tessa S Cook
 image: images/tessa.jpg
 links:
   # home-page: https://janesmith.com

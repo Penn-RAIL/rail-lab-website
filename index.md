@@ -28,7 +28,7 @@ Explore how RAIL’s research is pushing the boundaries of artificial intelligen
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/researchStock.jpg"
   link="research"
   title="Our Research"
   text=text
@@ -50,7 +50,7 @@ Discover how RAIL at the University of Pennsylvania is transforming medical imag
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/projectStock.jpeg"
   link="projects"
   title="Our Projects"
   flip=true
@@ -75,7 +75,7 @@ Meet the team behind RAIL’s cutting-edge research and projects.
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/teamStock.jpg"
   link="team"
   title="Our Team"
   text=text

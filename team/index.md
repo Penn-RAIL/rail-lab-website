@@ -12,8 +12,9 @@ Meet the team behind RAIL’s cutting-edge research and projects.
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+{% include list.html data="members" component="portrait" filter="role != 'research assistant'" %}
+{% include section.html %} 
+{% include list.html data="members" component="portrait" filter="role == 'research assistant'" %}
 
 
 <!-- {% include section.html background="images/background.jpg" dark=true %}

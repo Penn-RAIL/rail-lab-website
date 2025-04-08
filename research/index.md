@@ -13,7 +13,7 @@ Explore how RAIL’s research is pushing the boundaries of artificial intelligen
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% include citation.html lookup="Beyond Proprietary Models: The Potential of Open-Source Large Language Models in Radiology." style="rich" %}
 
 {% include section.html %}
 
