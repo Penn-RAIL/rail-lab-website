@@ -393,9 +393,9 @@
         
           <span class="title">Radiology AI Implementation Lab</span>
         
-        
+        <!-- 
           <span class="subtitle">University of Pennsylvania</span>
-        
+         -->
       </span>
     
   </a>
@@ -420,12 +420,6 @@
       
         <a href="/rail-lab-website/team/" data-tooltip="About our team">
           Team
-        </a>
-      
-    
-      
-        <a href="/rail-lab-website/blog/" data-tooltip="Musings and miscellany">
-          Blog
         </a>
       
     
@@ -458,6 +452,167 @@
   <section class="background" data-size="page">
     <h1 id="contact">
 <i class="icon fa-regular fa-envelope"></i>Contact</h1>
+
+<h2 id="send-us-a-message">Send us a Message</h2>
+
+<!-- 
+  Replace "YOUR_FORMSPREE_ENDPOINT_URL" with your actual Formspree endpoint 
+  after configuring it to send emails to satvik.tripathi@pennmedicine.upen.edu 
+-->
+<div class="contact-section">
+  <form action="YOUR_FORMSPREE_ENDPOINT_URL" method="POST" class="contact-form">
+    <div class="form-container">
+      <div class="form-group">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="firstname" class="form-control" required="">
+      </div>
+
+      <div class="form-group">
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lastname" class="form-control" required="">
+      </div>
+
+      <div class="form-group">
+        <label for="institution">Institution:</label>
+        <input type="text" id="institution" name="institution" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" class="form-control" required="">
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" class="form-control" required=""></textarea>
+      </div>
+
+      <div class="form-submit">
+        <button type="submit" class="submit-button">Send Message</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<style>
+.contact-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 2em 0;
+}
+
+.contact-form {
+  flex: 0 1 90%;
+  max-width: 1200px;
+}
+
+.form-container {
+  width: 100% !important; /* Ensure container takes full width of parent */
+  padding: 2rem !important;
+  background-color: #f8f9fa !important;
+  border: 1px solid #dee2e6 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1.5rem !important;
+  box-sizing: border-box !important;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: flex-start; /* Align items to the left */
+  width: 100%; /* Full width container */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+  color: #343a40;
+  text-align: left; /* Explicitly set left alignment */
+}
+
+.form-group input.form-control {
+  width: 100% !important; /* Force 50% width with !important */
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  background-color: white;
+  height: auto;
+}
+
+.form-control {
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  background-color: white;
+  height: auto;
+}
+
+.form-control:focus {
+  border-color: #4285F4;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(66, 133, 244, 0.25);
+}
+
+textarea.form-control {
+  width: 100% !important;
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-submit {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.submit-button {
+  background-color: #4285F4;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Make button full width for better alignment */
+  max-width: 250px; /* But limit its maximum width */
+}
+
+.submit-button:hover {
+  background-color: #3367D6;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.submit-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .form-container {
+    padding: 1.5rem;
+    gap: 1.2rem;
+  }
+  .form-group input.form-control {
+    width: 100% !important; /* On mobile, make all inputs full width */
+  }
+}
+</style>
 
 <p>Have questions or want to collaborate? Reach out to the RAIL team at the University of Pennsylvania—we’d love to hear from you.</p>
 
@@ -502,6 +657,8 @@
       
     </a>
   </div>
+
+<hr>
   </section>
 
 
