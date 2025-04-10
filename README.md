@@ -5,6 +5,6 @@
 
   # RAIL's not Website.
 
-  Visit **[pennrad-ghost-lab.github.io/rail-lab-website](https://pennrad-ghost-lab.github.io/rail-lab-website)** 🚀
+  Visit **[penn-rail.github.io/rail-lab-website](https://penn-rail.github.io/rail-lab-website)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
