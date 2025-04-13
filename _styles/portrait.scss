@@ -71,6 +71,8 @@
 .portrait-name {
   font-family: var(--heading);
   font-weight: var(--semi-bold);
+  white-space: nowrap;
+  
 }
 
 .portrait[data-style="tiny"] {
@@ -86,4 +88,5 @@
   line-height: 1.2;
   min-height: 2.4em;
   width: 100%;
+  
 }
