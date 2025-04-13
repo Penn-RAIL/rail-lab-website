@@ -37,6 +37,12 @@
             {{ svg | file_read }}
           {% else %}
             <img src="{{ logo | relative_url | uri_escape }}" alt="logo">
+            <a
+              href="{{ "/" | relative_url | uri_escape }}"
+              data-tooltip="Home"
+            >
+            HOME
+            </a>
           {% endif %}
         </span>
       {% endif %}
