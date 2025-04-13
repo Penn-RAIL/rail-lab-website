@@ -68,6 +68,7 @@
 .portrait-name {
   font-family: var(--heading);
   font-weight: var(--semi-bold);
+  white-space: nowrap;
 }
 
 .portrait[data-style=tiny] .portrait-description,
