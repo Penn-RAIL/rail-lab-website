@@ -54,7 +54,9 @@
 
 .portrait-image {
   width: 100%;
+  max-width: 200px;
   margin-bottom: 20px;
+  height: auto;
   aspect-ratio: 1 / 1;
   border-radius: 999px;
   object-fit: cover;
